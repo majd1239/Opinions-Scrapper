@@ -1,0 +1,8 @@
+sanic
+bs4
+asyncio
+ujson
+requests
+aiohttp
+nose
+singleton_decorator
