@@ -1,6 +1,6 @@
 # Opinions-Scrapper
 
-Fully asynchronous rest api that scrappes any opinoin from https://www.debate.org/opinions/.
+Fully asynchronous rest api that scrappes any opinion from https://www.debate.org/opinions/.
 
 How to Run:
 
