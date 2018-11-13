@@ -2,6 +2,10 @@
 
 Fully asynchronous rest api that scrappes any opinoin from https://www.debate.org/opinions/.
 
+How to Run:
+
+```docker run -it -p 5000:5000 $(docker build -q .) ```
+
 Usage:
 
 ```shell
