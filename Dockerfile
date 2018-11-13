@@ -14,6 +14,8 @@ COPY run_tests.sh .
 
 RUN chmod -R 777 run_tests.sh
 
+RUN ./run_tests.sh
+
 EXPOSE 5000
 
 CMD ["python", "app.py"]
