@@ -17,8 +17,8 @@ http://localhost:5000/opinion_scraper
 ![Screenshot](imgs/latency.png)
 
 
-#### Average throughput is 6.4 req/s for 10 concurrent users calling the endpoint with an average response  time of 1.5s. This
-#### is with a 4 Core machine running 4 sanic workers. It scales horizantally nicely with a 1.5x factor.
+#### Average throughput is 6.4 req/s for 10 concurrent users calling the endpoint with an average response time of 1.5s.
+#### Tests are run on a 4 Core machine running 4 sanic workers. It scales horizantally nicely with a 1.5x factor.
 
 ![Screenshot](imgs/concurrency.png)
 
