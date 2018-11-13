@@ -11,6 +11,9 @@ async def opinion_scraper(request):
     
     url = request.json.get("url")
     
+    if url is None:
+        raise Exception('Unrecognized request format. Use {"url":"URL_PATH"} format')
+        
     opinion = await Opinion.create(url, app.http)
 
     return json(opinion.data)
